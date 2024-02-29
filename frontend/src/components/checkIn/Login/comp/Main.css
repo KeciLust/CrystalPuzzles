@@ -1,0 +1,57 @@
+.block {
+    display: block;
+    max-width: 470px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 173px;
+
+}
+
+.h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+}
+
+.label {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(43, 45, 145, 1);
+    margin-bottom: 4px;
+    margin-top: 20px;
+}
+
+.input {
+    padding: 12px 17px;
+    border-radius: 10px;
+    border: 2px solid rgba(14, 16, 121, 1);
+    font-size: 20px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.input_pass {
+    background-repeat: no-repeat;
+    background-position: 430px center;
+    background-size: 25px;
+    background-image: url("../../../../img/icons/eye.png")
+}
+
+.select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    background-repeat: no-repeat;
+    background-position: 430px center;
+    background-size: 25px;
+    background-image: url("../../../../img/icons/chevron-down.png")
+}
